@@ -1,0 +1,72 @@
+
+#rodape{
+    background-color: #2f353c;
+    color: $fonteBranca;
+}
+.footer-conteudo {
+    
+    background-color: #2f353c;
+    box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.27);
+    line-height: 1.65em;
+    font-family: $fonte;
+    font-weight: 400;
+    
+    display: flex;
+    
+    @extend article, .centraliza;
+  }
+  
+.footer-sobre-descricao{
+    color: #a7aeb8;
+    font-family: $fonte;
+    font-size: 14px;
+    
+}
+
+.logo-fcamara-footer{
+    height: 38px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 170px;
+}
+
+.footer-fcamara-titulo-unidade {
+    font-weight: 700;
+    color: $fonteBranca;
+    font-family: $fonte;
+    font-size: 16px;
+}
+
+.footer-onde-estamos{
+    font-weight: 600;
+    font-size: 23px;
+    
+}
+.direitos{
+    color:$fonteBranca;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: $fonte;
+}
+
+hr{
+    background-color: #a7aeb8;
+}
+
+
+a {
+    color: #FFF !important;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1230px;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}

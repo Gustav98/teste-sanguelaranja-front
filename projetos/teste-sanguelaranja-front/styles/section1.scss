@@ -1,0 +1,83 @@
+#sobre{
+    background-color: $fundoRoxo;
+    color:$fonteBranca;
+}
+
+.coluna-layout {
+    display: flex;
+    line-height: 1.65em;
+  }
+  
+article {
+    flex: 2;
+    order: 2;
+    padding: 40px 70px;
+
+    h2{
+        font-family: $fonte;
+        letter-spacing: $espacamentoLetras;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .lead{
+        font-size: .9em;
+        text-align: center;
+        line-height: 2.23em;
+        font-family: $fonte;
+        font-weight: 400;
+    }
+
+    .centraliza{
+        display:flex;
+        button{
+            margin: auto;
+        }
+    
+    }
+
+    .btn-lg{
+        margin: auto;
+        padding:10px 30px 10px 30px;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: $espacamentoLetras;
+        background-color: $fundoLaranja !important;
+        color: $fonteBranca !important;
+        &:hover{
+            background-color: #FFF !important;
+            color:$fundoLaranja !important;
+        }
+    }
+}
+
+aside {
+    flex: 2;
+    order: 1;
+    
+    .foto-moca{
+        max-width: 771px;
+        position: absolute;
+    }
+
+    .pontos{
+        margin-top: 100px;
+    }
+}
+
+.texto-negrito{
+    font-family: $fonte;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.65em;
+    letter-spacing: $espacamentoLetras;
+    line-height: 1.95em;
+}
+  
+.zigzag {
+    height: 66px;
+    width: 74px;
+    fill: #C4572C;
+    margin: auto;
+  }

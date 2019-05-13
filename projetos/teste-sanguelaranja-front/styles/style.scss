@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500,600,700,900');
+
+$fundoLaranja: #F36C37;
+$fundoRoxo: #573791;
+$fonteBranca: #FFF;
+$botoes: 20px;
+$espacamentoLetras: 3px;
+$fonte: 'Montserrat' , sans-serif;
+
+
+
+@import "./section1";
+@import "./section2";
+@import "./footer";
+
+#header{
+  background-color: $fundoLaranja;
+  color:$fonteBranca;
+}
+
+.header-layout {
+    display: flex;
+    max-width: 1400px;
+  }
+
+  .foto-header {
+    flex: 2;
+    order: 2;
+  }
+  
+  .titulo-topo {
+    padding: 40px 70px;
+    flex: 2;
+    order: 1;
+    button{
+        padding:10px 30px 10px 30px;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: $espacamentoLetras;
+        border: 3px solid #FFF;
+        justify-content: space-around;
+        &:hover{
+            background-color: #FFF;
+            color:$fundoLaranja;
+        }
+    }
+  }
+  
+.logo-fcamara{
+  width: 27%;
+  margin: 20px;
+}
+.pontos{
+  width: 15%;
+  left: 0;
+  position: absolute;
+}
+
+
+.titulo1{
+  font-size: 2.3rem;
+  font-family: $fonte;
+  font-weight: 100;
+}
+
+.titulo2{
+  font-family: $fonte;
+  font-weight: 700;
+  font-size: 2.2em; color:#F36C37;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: #FFF; /* cor da borda */
+}
+
+
+.edicao{
+    background-color: #C4572C;
+    padding:10px 15px 10px 15px !important;
+    @extend .direitos;
+    letter-spacing: $espacamentoLetras;
+    order:2;
+}
+
+.ano{
+    order: 1;
+    font-weight: 700;
+    font-size: 70px;
+    margin-right: 10px;
+}
+
+.centraliza{
+    display:flex;
+}
+
+@media (max-width: 992px) {
+  #header{
+    display: flex;
+    margin: auto;
+  }
+  .footer-conteudo {
+    max-width: 90%;
+  }
+  .coluna-layout{
+    max-width: 90%;
+  }
+  .titulo1, .titulo2{
+    font-size: 1.3em;
+  }
+  .main-column{
+    display: none;
+  }
+  aside{ 
+    display: none; 
+  } 
+   
+  .pontos{
+    width: 25%;
+  }
+  .centraliza button{
+    padding:10px 20px 10px 20px;
+    font-size: 19px;
+  }
+  .foto-moca{
+    display: none;
+  }
+  article{
+    flex: 4;
+    max-width: 1000px;
+  }
+  .ano{
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .edicao{
+    font-size: 7px;
+  }
+  
+  .container-trilhas{
+    display: flex;
+    flex-direction: column;
+  }
+   
+  li:not(:last-child):after{
+    content:"";
+    width: 10%;
+    background:#fff;
+    margin-top: 11% !important;
+    margin-left: 14% !important;
+  } 
+    
+  .cronograma li{
+    font-size: 2em !important; 
+    margin: 7% !important;
+  }
+  li h3{
+    font-size: 14px !important; 
+    display: flex; 
+    margin: auto;
+  }
+
+  li p{
+    font-size: 12px; 
+    text-align: center
+  } 
+   
+  .cronograma{
+    width: 70%;
+    height: auto;
+    align-items: center;
+  }
+
+  footer small{
+    width: 50%;
+    font-size: .5em !important;
+  }
+
+  footer li{
+    width: 100%;
+    height: auto;
+  }
+}
