@@ -1,34 +1,20 @@
 # Teste #SangueLaranja
 
-Este teste é apresentado aos candidatos das vagas de Desenvolvimento Front-End com fins de avaliação de quesitos técnicos.
+Teste desenvolvido com Flexbox, SASS, Bootstrap, HTML E CSS
 
-## O Desafio:
+## O Desenvolvimento:
 
-Seu objetivo é criar uma simples Landing Page, que deverá conter todos os elementos contidos no layout:
+Nesse projeto, conheci novas formas de se desenvolver um site e pude implementar meus estudos.
+Foi uma forma de adquirir conhecimento na prática e serviu como experiência para possíveis oportunidades.
 
-https://xd.adobe.com/spec/3f7192ea-bfe2-4844-64f4-951add5de229-4940/
+Ao utilizar Flexbox e SASS, eu pensei em uma forma de melhor aproveitar o tempo de produção do teste, além de ajudar na organização dos arquivos para não deixar apenas um arquivo CSS enorme e mais difícil de alterar e encontrar os elementos.
 
-## Sources:
-As imagens do projeto, encontram-se neste repositórios na pasta “images”.
+O site foi divido em seções:
 
-## O que esperamos:
+1. Header
+2. Seção 1 - Sobre o programa de formação
+3. Seção 2 - Etapas do processo de admissão
+4. Footer
 
-- O layout deverá ser desenvolvido fielmente ao layout/identidade visual apresentada;
-- Poderá ser utilizado qualquer tipo de Framework ou biblioteca;
-
-## Plus
-- Layout responsivo;
-- Uso de pré-processador css;
-- Padrão de Projeto;
-- Boas práticas de desenvolvimento;
-- Criar arquivo descritivo da solução;
-
-
-## Entrega
-
-Clone esse repositório, construa seu projeto, crie um readme.md caso possua alguma pré condição para ser executado (EX: npm run dev).
-
-* Em caso de projetos que não puderem ser executados por falta de informações não serão avaliados.
-
-
-Boa sorte!
+O conteúdo foi dividido entre "divs" principais, e estas, contém "ids" que definem o tamanho máximo, cores de fonte e fundo da seção.
+Também foram divididas com Flexbox, para melhor definir o espaço de cada elemento e o posicionamento dos mesmos.
